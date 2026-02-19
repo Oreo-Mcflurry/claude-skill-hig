@@ -1,0 +1,33 @@
+{
+  "name": "claude-skill-hig",
+  "version": "1.0.0",
+  "description": "Claude Code skill for Apple framework development powered by HIGLab AI Reference",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "ios",
+    "apple",
+    "swiftui",
+    "storekit",
+    "arkit",
+    "higlab"
+  ],
+  "author": "Oreo-Mcflurry",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oreo-Mcflurry/claude-skill-hig.git"
+  },
+  "homepage": "https://github.com/Oreo-Mcflurry/claude-skill-hig#readme",
+  "files": [
+    "commands/hig.md",
+    "claude-md-snippet.md",
+    "install.js",
+    "uninstall.js"
+  ],
+  "scripts": {
+    "postinstall": "node install.js",
+    "preuninstall": "node uninstall.js"
+  }
+}
