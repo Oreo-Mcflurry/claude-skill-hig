@@ -1,6 +1,6 @@
 {
   "name": "claude-skill-hig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude Code skill for Apple framework development powered by HIGLab AI Reference",
   "keywords": [
     "claude",
@@ -26,6 +26,9 @@
     "install.js",
     "uninstall.js"
   ],
+  "bin": {
+    "claude-skill-hig-uninstall": "uninstall.js"
+  },
   "scripts": {
     "postinstall": "node install.js",
     "preuninstall": "node uninstall.js"

@@ -15,7 +15,7 @@ This copies the `/hig` skill to `~/.claude/commands/hig.md`.
 ## Uninstall
 
 ```bash
-npm uninstall -g claude-skill-hig
+claude-skill-hig-uninstall && npm uninstall -g claude-skill-hig
 ```
 
 ## Usage
